@@ -1,0 +1,18 @@
+/* HelloWorld.css */
+
+h1{ font-size: 44px;
+    color: Green;
+  }
+abbr {
+    padding: 20px;
+    border-bottom: dotted;
+    margin: 30px;
+    width: 500px;
+    display: inline-block; 
+    }
+a { text-decoration: none;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+     }
