@@ -1,0 +1,134 @@
+    /* edX.css */
+
+html{
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+}
+
+a {text-decoration: none;
+}
+header{
+    
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding: 20px 20px;
+    border-bottom: 1px #000 solid;
+    padding-left: 130px; 
+ 
+}
+
+header div{
+    
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.nav1{
+    display: inline-block;
+    
+}
+
+.nav1 li{
+    
+    float:left;
+    margin-left: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.nav2{
+    float: right;
+    display: inline-block;
+    margin-right: 300px;
+    margin-top: 25px;
+    font-size: 20px;
+    
+    
+}
+
+
+.nav2 li{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+
+.container2{
+    width: auto;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+}
+
+.img2{
+    float: left;
+    width: 320px;
+    margin-top: 20px;
+}
+
+
+.top{
+    float: left;
+    width: 350px;
+  
+}
+.top2{
+    float: left;
+    width: 400px;
+    text-align: center;
+}
+.but1{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2f36fc;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+.but2{
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #359907;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+}
+
+.class2{
+    float: left;
+    width: 280px;
+    margin-left: 20px;
+}
+
+.class3{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.bot1{
+    float: left;
+}
+
+.bot2{
+    float: left;
+}
+
+.bot3{
+    float: left;
+}
