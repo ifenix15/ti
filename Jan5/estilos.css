@@ -1,0 +1,111 @@
+﻿/* estilos.css */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body { 
+		font-family: "Open Sans",Arial,Helvetica,sans-serif;
+		margin: 0;
+}
+
+header {
+        background-color: rgba(0,0,0,0.85);
+        color:white;
+        overflow:hidden;   
+        padding: 0 2em;
+        
+       
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index: 1000; 
+        }
+
+
+nav a { text-decoration: none; color:white; }
+
+h1 { float:left;}
+
+nav { float:right; margin-top:2em; }
+
+section {         
+                width: 90%;              
+                margin: 7em auto;
+                overflow:hidden;
+        }
+
+
+.foto img { max-width: 100%; 
+            vertical-align: bottom;
+          }
+          
+.foto { position:relative;}
+span.like { position:absolute; bottom:1px; left:2px; }
+button.like { position:absolute; bottom:1px; right:2px; }
+
+
+footer { 
+        background-color: rgba(0,0,0,0.85);
+        color:white;
+        padding: 0 2em;
+
+        border: 1px solid transparent; 
+       }
+/*Media Querie */   
+
+@media (min-width:1201px)
+{
+        /*Fotos lado a lado 3 a 3 */
+        .foto  {
+                float:left;
+                   
+                width: 30%;                     
+                margin-right: 5%;
+                margin-bottom: 1em;
+                }
+        
+
+.foto:nth-child(3n) { margin-right: 0;}
+
+.foto:nth-child(3n+1) { clear:left;}
+
+} /*Fim da media Querie */
+
+/*Media querie*/
+
+@media (max-width:1200px) and (min-width:751px)
+{
+        /*Fotos lado a lado 2 a 2 */
+        .foto  {
+                float:left;
+                   
+                width: 47.5%;                     
+                margin-right: 5%;
+                margin-bottom: 1em;
+                }
+        
+
+.foto:nth-child(2n) { margin-right: 0;}
+
+.foto:nth-child(2n+1) { clear:left;}
+
+} /*Fim da media Querie */
+
+/*Media querie*/
+
+@media (max-width:750px)
+{
+        /*Fotos 1 a 1 */
+        .foto  {   margin-bottom: 1em;  }
+        
+        section { width: 95%; }       
+                
+        nav * { display: none; /*  ou  visibility: hidden;*/}
+        
+        nav:before {
+                content: "\f0c9";
+                font-family: FontAwesome;
+                font-size: 30px;
+        }
+        
+} /*Fim da media Querie */
